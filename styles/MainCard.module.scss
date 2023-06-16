@@ -1,0 +1,62 @@
+@import "./Z_named_vars.scss";
+
+.cardBody {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  box-shadow: 1px 3px 3px 2px rgba(0, 0, 0, 1);
+  color: $text;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.loggedOutDiv {
+  max-width: fit-content;
+  bottom: 12.5vh;
+  text-align: center;
+
+  p {
+    font-size: 1.3rem;
+    margin-bottom: 0rem;
+  }
+}
+
+// @media only screen and (min-width: 1199.99px) {
+//   .cardBody {
+//     width: 50vw;
+
+//     h1 {
+//       font-size: 3.3rem;
+//       margin-top: 25px;
+//     }
+//   }
+// }
+
+// @media only screen and (max-width: 1199.98px) {
+//   .cardBody {
+//     width: 70vw;
+
+//     h1 {
+//       font-size: 3rem;
+//       margin-top: 20px;
+//     }
+//   }
+// }
+
+// @media only screen and (max-width: 991.98px) {
+//   .cardBody {
+//     width: 80vw;
+
+//     h1 {
+//       font-size: 2.5rem;
+//     }
+//   }
+// }
+
+// @media only screen and (max-width: 432px) {
+//   .cardBody {
+//     width: 90vw;
+//   }
+// }

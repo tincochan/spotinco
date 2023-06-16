@@ -1,0 +1,13 @@
+.songCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 2.5rem;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  margin-top: 4rem;
+  background-color: rgba(0, 0, 0, 0.15);
+}

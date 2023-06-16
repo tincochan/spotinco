@@ -1,0 +1,60 @@
+@import "./Z_named_vars.scss";
+
+.searchDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+
+  .singleInputDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  p {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .searchIcon {
+    width: 20px;
+    height: 20px;
+    color: black;
+  }
+
+  .searchInput {
+    outline: none;
+    font-size: 18px;
+    margin: 1rem;
+    padding: 0.8rem;
+    border-radius: 8px;
+    color: $text-secondary;
+    padding-left: 3rem;
+    &::placeholder {
+      color: rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  .searchBtn {
+    margin-top: 1rem;
+    width: 70%;
+    height: 2.4rem;
+    background-color: $color-spotify;
+    border: none;
+    border-radius: 5px;
+    color: $text;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    &:hover {
+      background-color: $color-spotify-hover;
+    }
+  }
+}

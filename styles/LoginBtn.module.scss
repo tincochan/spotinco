@@ -1,0 +1,38 @@
+@import "./Z_named_vars.scss";
+
+.btnWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h4 {
+    margin: 0;
+  }
+}
+
+.loginBtn {
+  max-width: calc(max(150px, 40vw) + 10vw);
+  height: 50px;
+  padding: 8px;
+  background-color: $color-spotify;
+  color: $text;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.3rem 1rem 1rem 1rem;
+
+  span {
+    margin-left: 5px;
+  }
+}
+
+.loginBtn:hover {
+  background-color: $color-spotify-hover;
+  color: $text;
+}
